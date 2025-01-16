@@ -1,9 +1,9 @@
 import React from "react";
-import { Calculator } from "./calcutor";
+import { EvenData1 } from "./event-data";
 
 
 export default function App() {
-  return <Calculator/>
+  return <EvenData1/>
 }
 
 
