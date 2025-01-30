@@ -1,9 +1,9 @@
 import React from "react";
-import RefsFunc, { EvenData1 } from "./refs-func";
+import MessageBox from "./state-func";
 
 
 export default function App() {
-  return <RefsFunc/>
+  return <MessageBox/>
 }
 
 
