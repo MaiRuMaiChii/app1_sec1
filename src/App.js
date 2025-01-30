@@ -1,9 +1,15 @@
 import React from "react";
-import MessageBox from "./state-func";
+import { userContext } from "./context";
+import Content from "./context-content";
 
 
-export default function App() {
-  return <MessageBox/>
+function App() {
+  return (
+    <userContext.Provider value={"Nong Noey"}>
+      <Content/>
+    </userContext.Provider>
+  )
 }
 
+export default App;
 
