@@ -44,7 +44,7 @@ export default function FormText(){
             <div className="form-group mb-4">
                 <label htmlFor="memo">บันทึกช่วยจำ</label>
                 <textarea id="memo" name="memo" rows="2" maxLength="200"
-                className="form-control form-control-sm">
+                className="form-control form-control-sm" > 
                 </textarea>
             </div>
 
